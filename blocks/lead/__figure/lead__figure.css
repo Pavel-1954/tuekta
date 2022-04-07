@@ -1,0 +1,15 @@
+.lead__figure {
+    margin: 64px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+    .lead__figure {
+        margin-top: 56px;
+    }
+}
+@media screen and (max-width: 541px){
+    .lead__figure {
+        margin-top: 40px;
+    }
+}
